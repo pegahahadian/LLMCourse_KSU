@@ -11,7 +11,7 @@ The goal is to evaluate how attention mechanisms enhance performance in sequence
 
 ## Project Structure
 
-- `HW2.ipynb` — Main Jupyter notebook with all implementation steps.
+- `Next Token Prediction.ipynb` — Main Jupyter notebook with all implementation steps.
 - `requirements.txt` — Python package dependencies.
 - `README.md` — Project documentation.
 
