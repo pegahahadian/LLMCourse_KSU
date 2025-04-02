@@ -1,25 +1,29 @@
-# Next Token Prediction with Transformers
+#  Next Token Prediction with Transformers
 
-This project implements and compares two neural network architectures for next-token prediction using the [WikiText-2](https://paperswithcode.com/dataset/wikitext-2) dataset:
+This project implements and compares two neural architectures for next-token prediction using the [WikiText-2](https://paperswithcode.com/dataset/wikitext-2) dataset:
 
-1. **Baseline Feedforward Neural Network (MLP)**
-2. **Transformer-based Model with Multi-head Self-Attention**
+1.  **Baseline Feedforward Neural Network (FFN)**
+2.  **Transformer-Based Model with Multi-Head Self-Attention**
 
-The goal is to evaluate how attention mechanisms enhance performance in sequence modeling tasks like language modeling.
+The goal is to understand the impact of attention mechanisms and Transformer encoders on language modeling performance.
 
 ---
 
-## Project Structure
+##  Project Structure
 
-- `Next Token Prediction.ipynb` — Main Jupyter notebook with all implementation steps.
-- `requirements.txt` — Python package dependencies.
-- `README.md` — Project documentation.
+- `Next Token Prediction.ipynb` — Main Colab-compatible notebook with all steps:
+  - Tokenization & Vocabulary Creation
+  - Dataset Preparation
+  - FFN & Transformer Architectures
+  - Training, Evaluation & Visualization
+- `requirements.txt` — Python dependencies (Hugging Face `transformers`, `datasets`, `torch`, etc.)
+- `README.md` — This file.
 
 ---
 
 ##  Installation
 
-Make sure Python ≥ 3.7 is installed. Then install the required packages:
+Ensure Python ≥ 3.7 is installed, then install the dependencies:
 
 ```bash
 pip install -r requirements.txt
